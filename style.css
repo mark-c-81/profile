@@ -7,17 +7,7 @@ body {
 	font-weight: 300;
 }
 
-h1 {
-	color: #E85A4F;
-	font-family: 'Poppins', sans-serif;
-}
-
-h2 {
-	color: #E85A4F;
-	font-family: 'Poppins', sans-serif;
-}
-
-h3 {
+h1, h2, h3 {
 	color: #E85A4F;
 	font-family: 'Poppins', sans-serif;
 }
@@ -36,7 +26,6 @@ a:hover {
 	color: #E85A4F;
 }
 
-
 .container {
 	width: 700px;
 	margin: 0 auto;
@@ -48,7 +37,7 @@ a:hover {
 	border-radius: 8px;
 	box-shadow: 0 10px 30px rgba(0,0,0,.2);
 	text-align: center;
-	margin: 16px auto;
+	margin-top: 16px;
 }
 
 #profile {
@@ -101,5 +90,8 @@ a:hover {
   /* For a screen < 540px, this CSS will be read */
   .container {
     width: 300px;
+  }
+  .list-inline {
+  	font-size: 20px;
   }
 }
